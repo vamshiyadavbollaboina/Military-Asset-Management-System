@@ -11,7 +11,7 @@ function Login() {
 
   const navigate = useNavigate();
   const handleChange = (event) => {
-    const { name, value } = e.target;
+    const { name, value } = event.target;
     setForm(prev => ({ ...prev, [name]: value }));
   };
 
