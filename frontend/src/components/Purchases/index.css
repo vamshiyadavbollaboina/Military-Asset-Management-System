@@ -1,0 +1,88 @@
+.pur-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.pur-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pur-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 22px;
+}
+
+.pur-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.pur-input:focus {
+  border-color: #007bff;
+}
+
+.pur-btn {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pur-btn:hover {
+  background: #1e40af;
+}
+
+@media (max-width: 768px) {
+  .pur-card {
+    max-width: 90%;
+    padding: 22px;
+  }
+
+  .pur-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pur-card {
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  .pur-title {
+    font-size: 18px;
+  }
+
+  .pur-input {
+    font-size: 13px;
+    padding: 9px;
+  }
+
+  .pur-btn {
+    font-size: 14px;
+  }
+}

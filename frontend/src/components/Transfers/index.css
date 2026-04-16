@@ -1,0 +1,89 @@
+.trf-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.trf-card {
+  width: 100%;
+  max-width: 380px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.trf-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  font-size: 22px;
+}
+
+.trf-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.trf-input:focus {
+  border-color: #007bff;
+}
+
+.trf-btn {
+  width: 100%;
+  padding: 10px;
+  background: #f59e0b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.trf-btn:hover {
+  background: #d97706;
+}
+
+@media (max-width: 768px) {
+  .trf-card {
+    max-width: 90%;
+    padding: 22px;
+  }
+
+  .trf-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trf-card {
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  .trf-title {
+    font-size: 18px;
+  }
+
+  .trf-input {
+    font-size: 13px;
+    padding: 9px;
+  }
+
+  .trf-btn {
+    font-size: 14px;
+  }
+}
