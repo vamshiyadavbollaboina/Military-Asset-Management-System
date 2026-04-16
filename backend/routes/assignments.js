@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Asset = require("../models/Asset");
-const Assignment = require("../models/Assignment");
+const Assignment = require("../models/assignment");
 const auth = require("../middleware/auth");
 
 router.get("/", auth(["Admin", "Commander"]), async (req, res) => {
