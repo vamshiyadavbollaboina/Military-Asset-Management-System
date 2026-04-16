@@ -6,7 +6,8 @@ A full-stack application to manage military assets, track purchases, assignments
 
 ## Live Demo
 
-- 🌐 Backend API: https://military-asset-management-system-raa5.onrender.com  
+- Backend API: https://military-asset-management-system-raa5.onrender.com
+- Frontend API: https://military-asset-management-system-two.vercel.app
 
 ---
 
