@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const Asset = require("../models/Asset");
-const Transfer = require("../models/Transfer");
+const Transfer = require("../models/transfer");
 const auth = require("../middleware/auth");
 
 router.post("/", auth(["Admin"]), async (req, res) => {
